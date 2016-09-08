@@ -26,7 +26,7 @@ static int fast_atoi(const char *str)
 
 - (void)testHookAtoi
 {
-  rebind_symbols((struct rebinding[1]){{"atoi", fast_atoi, (void *)&orig_atoi}}, 1);
+  rebind_symbols((struct rebinding[1]){{"atoi", "/usr/lib/libSystem.dylib", fast_atoi, (void *)&orig_atoi}}, 1);
   XCTAssertEqual(atoi("1"), 1);
   XCTAssertNotEqual(atoi("12"), 12);
 }
