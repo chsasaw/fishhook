@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E1D1DC21DE2F66F0069F6B0 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D1DC01DE2F66F0069F6B0 /* fishhook.c */; };
-		0E1D1DC31DE2F66F0069F6B0 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1D1DC11DE2F66F0069F6B0 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E257B601DE30FA600F15713 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E257B5E1DE30FA600F15713 /* fishhook.c */; };
+		0E257B611DE30FA600F15713 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E257B5F1DE30FA600F15713 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1D1DB51DE2F6550069F6B0 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1D1DBA1DE2F6550069F6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E1D1DC01DE2F66F0069F6B0 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = ../../fishhook.c; sourceTree = "<group>"; };
-		0E1D1DC11DE2F66F0069F6B0 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = ../../fishhook.h; sourceTree = "<group>"; };
+		0E257B5E1DE30FA600F15713 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = SOURCE_ROOT; };
+		0E257B5F1DE30FA600F15713 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +48,8 @@
 		0E1D1DB71DE2F6550069F6B0 /* fishhook */ = {
 			isa = PBXGroup;
 			children = (
-				0E1D1DC01DE2F66F0069F6B0 /* fishhook.c */,
-				0E1D1DC11DE2F66F0069F6B0 /* fishhook.h */,
+				0E257B5E1DE30FA600F15713 /* fishhook.c */,
+				0E257B5F1DE30FA600F15713 /* fishhook.h */,
 				0E1D1DBA1DE2F6550069F6B0 /* Info.plist */,
 			);
 			path = fishhook;
@@ -62,7 +62,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1D1DC31DE2F66F0069F6B0 /* fishhook.h in Headers */,
+				0E257B611DE30FA600F15713 /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1D1DC21DE2F66F0069F6B0 /* fishhook.c in Sources */,
+				0E257B601DE30FA600F15713 /* fishhook.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +281,7 @@
 				0E1D1DBF1DE2F6550069F6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
